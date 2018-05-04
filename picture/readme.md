@@ -1,2 +1,2 @@
 
-[鬱金香](Tulips.jpg)
+![鬱金香](Tulips.jpg)
