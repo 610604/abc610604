@@ -1,24 +1,45 @@
 取代:
-[](./image/取代)
+>>> string9 = "you are the apple of my eye"
+>>> string9.replace("eye","eyes")
+'you are the apple of my eyes'
 
 '''
 
 join:
-![](./image/join)
+>>> 'hi'.join("Wwww")
+'Whiwhiwhiw'
 
 '''
 
 去除空白:
-![](./image/去除空白)
+>>> string11 = "   You are the apple of my eye.  "
+>>> string11.strip()
+'You are the apple of my eye.'
 
 '''
 
 list:
-![](./image/list)
+>>> list=[1,2,3,4]
+>>> list1=[5,6,7]
+>>> list2=[8,9,0]
+>>> list3=list1+list2+list
+>>> print(list3)
+[5, 6, 7, 8, 9, 0, 1, 2, 3, 4]
+>>> print(3*list3)
+[5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4]
 
 '''
 
-超強大功能:序列拆解
-![](./image/序列拆解)
+超強大功能:序列拆解:
+>>> m = [13,21,2,14]
+>>> h,j,k,l=m
+>>> h
+13
+>>> j
+21
+>>> k
+2
+>>> l
+14
 
 '''
